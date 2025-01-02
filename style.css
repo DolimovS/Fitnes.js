@@ -1464,6 +1464,7 @@ text-align: center;
         height: 25px;
     }
     .section_four_center{
+        padding: 15px 0;
         gap: 5px;
     }
     .section_four_center .number{
