@@ -63,9 +63,10 @@ font-weight: 500;
 }
 button{
     border-radius: 28px;
+    /* padding: 15px 39px; */
     width: 157px;
     height: 53px;
-background: linear-gradient(137.60deg, rgb(48, 67, 169) 11.985%,rgb(31, 98, 159) 96.601%);
+    background: linear-gradient(137.60deg, rgb(48, 67, 169) 11.985%,rgb(31, 98, 159) 96.601%);
 }
 
 .nav_button p{
@@ -615,6 +616,7 @@ text-transform: capitalize;
     gap: 30px;
 }
 .section_five h1{
+    width: 571px;
     color: rgb(255, 255, 255);
 font-family: Poppins;
 font-size: 40px;
@@ -636,7 +638,6 @@ background-color: transparent;
 width: 283px;
 height: 57px;  
 padding:0 24px ; 
-
 color: rgb(255, 255, 255);
 font-family: Poppins;
 font-size: 16px;
@@ -656,6 +657,17 @@ letter-spacing: 0%;
 text-align: start;
 text-transform: capitalize;
 }
+form button p{
+/* padding: 15px 39px; */
+color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
 .section_five .right{
     display: flex;
     gap: 10px;
@@ -665,6 +677,10 @@ text-transform: capitalize;
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.section_five .right .rasm img{
+    width: 138px;
+    height: 138px;
 }
 .section_five .right .rasm:nth-child(1){
     padding-top: 10px;
@@ -914,7 +930,7 @@ text-align: center;
     .main_top h2{
         font-size: 6px;
         font-weight: 250;
-        line-height: 10px;
+        line-height: 100%;
     }
     .main_top h1{
         font-size: 25px;
@@ -922,9 +938,10 @@ text-align: center;
         line-height: 20px;
     }   
     .main_top p{
-        font-size: 7px;
+        font-size: 10px;
+        padding: 0 10px;
         font-weight: 150;
-        line-height: 15px;
+        line-height: 20px;
     }
     .main_button button:hover{
         font-weight: 170;
@@ -940,19 +957,19 @@ text-align: center;
         gap: 8px;
     }
     .main_top h2{
-        font-size: 5px;
+        font-size: 7px;
         font-weight: 100;
         line-height: 8px;
     }
     .main_top h1{
         font-size: 17px;
         font-weight: 120;
-        line-height: 15px;
+        line-height: 20px;
     }   
     .main_top p{
         font-size: 10px;
         font-weight: 90;
-        line-height: 10px;
+        line-height: 20px;
     }
     .main_button button:hover{
         font-weight: 130;
@@ -1074,7 +1091,7 @@ text-align: center;
     .section_second_img{
         width: 450px;
         height: 324px;
-    }
+    }   
     .section_second_img1,
     .section_second_img2{
         width: 330px;
@@ -1084,18 +1101,18 @@ text-align: center;
         font-size: 10px;
         font-weight: 300;
         line-height: 15px;
-        }
-        .section_second_text h1{
+    }
+    .section_second_text h1{
         font-size: 25px;
         font-weight: 400;
         line-height: 100%;
-        }
-        .section_second_text>p{
+    } 
+    .section_second_text>p{
         width: 300px;
         font-size: 12px;
         font-weight: 300;
         line-height: 15px;
-        }
+    }
 }
 @media screen and (max-width: 460px){
     .section_second_img{
@@ -1172,9 +1189,9 @@ text-align: center;
         }
     .section_third_cards .card>p{
         padding-top: 20px;
-    font-size: 25px;
-    font-weight: 550;
-    line-height: 35px;
+        font-size: 25px;
+        font-weight: 550;
+        line-height: 35px;
     }
     .section_third_cards>img{
         width: 168px;
@@ -1527,5 +1544,115 @@ text-align: center;
     }
     .section_four_bottom .card .text p{
         width: 250px;
+    }
+}
+/* ssection_five_media */
+@media screen and (max-width:950px){
+    .section_five{
+        padding: 80px 0;
+    }
+    .section_five .black_card{
+        padding: 35px;
+    }
+    .section_five .left{
+        gap: 20px;
+    }
+    .section_five h1{
+        width: 430px;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45px;
+    }
+    form{
+        gap: 20px;
+    }
+    form input{
+        border-radius: 25px;
+        width: 233px;
+        height: 45px;  
+        padding:0 20px ; 
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    form input::placeholder{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+    form button{
+        border-radius: 28px;
+        width: 127px;
+        height: 45px;
+    }
+    form button p{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    .section_five .right .rasm img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:715px){
+    .section_five{
+        padding: 60px 0;
+    }
+    .section_five .black_card{
+        padding: 20px;
+    }
+    .section_five .left{
+        gap: 15px;
+    }
+    .section_five h1{
+        width: 300px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    form{
+        gap: 15px;
+    }
+    form input{
+        border-radius: 20px;
+        width: 170px;
+        height: 32px;  
+        padding:0 15px ; 
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    form input::placeholder{
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 15px;
+    }
+    form button{
+        border-radius: 24px;
+        width: 90px;
+        height: 32px;
+    }
+    form button p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .section_five .right .rasm img{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media screen and (max-width:515px){
+    .section_five{
+        padding: 40px 0;
+    }
+    .section_five .black_card{
+        gap: 30px;
+        flex-direction: column;
+    }
+    .section_five .right .rasm img{
+        width: 138px;
+        height: 138px;
     }
 }
